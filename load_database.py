@@ -12,7 +12,7 @@ def create_connection():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',  
-            password='RabsSQL44', 
+            password='passwd', #Must be your actual password when run 
             database='enron_emails'
         )
         if connection.is_connected():
