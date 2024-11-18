@@ -13,3 +13,6 @@ os
 pandas 
 email - idt this one anymore 
 mysql-connector-python
+networkx
+matplotlib
+scipy
