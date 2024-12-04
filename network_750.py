@@ -33,4 +33,5 @@ nx.draw_networkx_labels(G_filtered, pos, font_size=6, font_family='sans-serif', 
 
 plt.title("Significant Nodes in Enron Email Network")
 plt.axis('off')
+plt.savefig('significant_nodes_750.png', bbox_inches='tight')
 plt.show()
