@@ -1,4 +1,6 @@
 /maildir
 /env
 *.csv
+*.png
+*.jpg
 
